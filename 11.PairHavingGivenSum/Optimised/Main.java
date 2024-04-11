@@ -38,8 +38,10 @@ public class Main {
     public static void main(String[] args) {
         // int[] arr = { 1, 5, 7, -1 };
         // int K = 6;
-        int[] arr = { 1, 1, 1, 1 };
-        int K = 2;
+        // int[] arr = { 1, 1, 1, 1 };
+        // int K = 2;
+        int arr[] = { 10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1 };
+        int K = 11;
 
         int count = countPair(arr, K);
         System.out.println(count);
