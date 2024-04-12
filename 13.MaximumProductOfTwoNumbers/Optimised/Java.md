@@ -1,3 +1,6 @@
+- time complexity - O(n) - need to traverse array once
+- Auxiliary space - O(1)
+
 ```java
 class Solution {
     int maxProduct(int arr[], int n) {
