@@ -1,0 +1,3 @@
+- We can maintain a count array or a hash table that stores the count of all numbers in the array that are in the range A…B. Then we can simply check if every number occurred at least once.
+- Time complexity : O(n logn)
+- Auxiliary space : O(max_element)
