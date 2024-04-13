@@ -1,3 +1,6 @@
+- time complexity - O(log n)
+- Auxiliary space - O(1)
+
 ```java
 class Solution
 {
