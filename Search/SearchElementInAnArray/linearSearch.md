@@ -1,0 +1,3 @@
+- start from first index
+- if element found return it's position
+- else return -1 at the end
