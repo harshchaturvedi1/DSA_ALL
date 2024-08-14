@@ -24,13 +24,13 @@ class HelloWorld {
     }
     
     public static void bubbleSort(int[] arr){
-        boolean swapped = false;
+        boolean swapped = true;
         int n = arr.length;
-        while(!swapped){
-            swapped = true;
+        while(swapped){
+            swapped = false;
             for(int i=0;i<n-1;i++){
                 if(arr[i]>arr[i+1]){
-                    swapped = false;
+                    swapped = true;
                     swap(arr,i,i+1);
                 }
             }
