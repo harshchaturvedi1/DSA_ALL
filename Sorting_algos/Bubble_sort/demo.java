@@ -1,10 +1,15 @@
 /*
+Iteratively compares adjacent elements and swaps them if they are out of 
+order. The largest element “bubbles” to the end of the list with each pass.
+
 Time Complexity:
     Best: O(n) (when the array is already sorted)
     Average: O(n^2)
     Worst: O(n^2)
 Space Complexity: O(1) (in-place)
 */
+
+
 
 class HelloWorld {
     public static void main(String[] args) {
